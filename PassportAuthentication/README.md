@@ -3,7 +3,7 @@ His repo: https://github.com/bradtraversy/node_passport_login (Please give a sta
 
 I just push project up my repo to save knowledge that I learn and research.
 
-Explain Tools and lib:
+**Explain Tools and lib:**
 
 -   bcryptjs: Encrypt passwords for added security (slower bcrypt lib)
     https://www.npmjs.com/package/bcryptjs
@@ -24,13 +24,13 @@ Explain Tools and lib:
 -   passport-local: The local authentication strategy authenticates users using a username and password (local is local of server)
     https://www.npmjs.com/package/passport-local
 
-Processor:
+**Processor:**
 
 -   Register: validate -> hash password -> save credential to database
 -   Login: validate -> passport (check user and password, then establish session in where save userID)
 -   Logout: destroy session -> logout
 
-Custom middleware: (path: config/auth.js)
+**Custom middleware:** (path: config/auth.js)
 
 -   forwardAuthenticated and ensureAuthenticated: check authenticate to redirect to corresponding page
 
